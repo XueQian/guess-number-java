@@ -1,10 +1,13 @@
 package com.thoughtworks.iamcoach.guessnumber;
 
-/**
- * Created by xueqian on 10/16/14.
- */
+import java.util.Scanner;
+
 public class InputProcessor {
     public String process(){
-        return null;
+
+        Scanner input = new Scanner(System.in);
+
+        return input.next();
+
     }
 }
